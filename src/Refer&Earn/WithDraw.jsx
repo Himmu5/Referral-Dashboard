@@ -2,23 +2,23 @@ import Button from "./Button";
 
 function WithDraw() {
   return (
-    <div className="px-9 py-5 mt-10 md:px-0 max-w-xl">
-      <div className="flex flex-wrap gap-10 shadow-xl rounded-md p-6 md:p-10 ">
-        <div className="space-y-2">
+    <div className="px-8 py-5 mt-10 md:px-0 max-w-xl">
+      <div className="grid grid-cols-2 md:flex gap-2 flex-wrap md:gap-10 shadow-xl rounded-md p-3 py-5 md:p-10 ">
+        <div className=" space-y-2">
           <h2 className="text-[#800080]">Referral Earning</h2>
-          <p className="text-4xl">₹ 2,500</p>
+          <p className="text-3xl">₹ 2,500</p>
         </div>
-        <div className="self-end space-y-2">
+        <div className="md:self-end space-y-2">
           <h2 className="text-[#800080]">Total Referrals</h2>
-          <p className="text-4xl">7</p>
+          <p className="text-3xl">7</p>
         </div>
 
         <div className="space-y-2 ">
           <h2 className="text-[#800080]">Wallet Balance</h2>
-          <p className="text-4xl">₹ 500</p>
+          <p className="text-3xl">₹ 500</p>
         </div>
         <div className="self-center ">
-          <Button className={" rounded-full"}> Withdraw Balance </Button>
+          <Button className={" rounded-full "}> Withdraw</Button>
         </div>
       </div>
     </div>
