@@ -3,7 +3,7 @@ import Button from "./Button";
 function WithDraw() {
   return (
     <div className="px-8 py-5 mt-10 md:px-0 max-w-xl">
-      <div className="grid grid-cols-2 md:flex gap-2 flex-wrap md:gap-10 shadow-xl rounded-md p-3 py-5 md:p-10 ">
+      <div className="grid grid-cols-2 md:flex gap-2 flex-wrap md:gap-10 shadow-xl rounded-md p-3 py-7 md:p-10 ">
         <div className=" space-y-2">
           <h2 className="text-[#800080]">Referral Earning</h2>
           <p className="text-3xl">₹ 2,500</p>

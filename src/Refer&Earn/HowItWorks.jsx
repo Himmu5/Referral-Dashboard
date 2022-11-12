@@ -8,7 +8,7 @@ function HowItWorks() {
         <div className="mt-5 md:flex flex-wrap gap-5 ">
           <Process
             path="/Vector.png"
-            ExtraClass={"px-[12px]"}
+            ExtraClass={"px-[12px] "}
             heading="Invite your Friends"
             para="Share the link tutedude.com with your friends"
           />
