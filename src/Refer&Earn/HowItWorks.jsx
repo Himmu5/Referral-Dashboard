@@ -9,6 +9,7 @@ function HowItWorks() {
           <Process
             path="/Vector.png"
             ExtraClass={"px-[12px] "}
+            w={"16px"}
             heading="Invite your Friends"
             para="Share the link tutedude.com with your friends"
           />
