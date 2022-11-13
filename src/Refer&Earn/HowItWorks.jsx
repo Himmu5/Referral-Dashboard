@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Process from "./Process";
 
 function HowItWorks() {
@@ -37,7 +38,8 @@ function HowItWorks() {
         </div>
 
         <div className="flex flex-col space-y-3 my-10  text-[#800080]">
-            <p>Friends Who Enrolled</p>
+            
+            <Link to="/FrindReferral" >Friends Who Enrolled</Link>
             <p>Terms & Conditions</p>
         </div>
       </div>

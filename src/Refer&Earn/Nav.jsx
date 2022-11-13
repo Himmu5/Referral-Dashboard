@@ -22,7 +22,7 @@ function Nav() {
             </Button>
           </div>
         </div>
-        <p className="text-sm ml-8 mt-10">UI/UX {">"} Refer & Earn</p>
+        
       </div>
     </div>
   );
